@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            first javascript app
+        </title>
+        <meta charset="utf-8">
+        <meta lang="en-us">
+        <link rel="stylesheet" href="style/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="style/style.css">
+       <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+       <noscript>
+        <h1>please turn on java script</h1>
+        <style>
+            h1{
+                text-align:center;
+                font-size:50px;
+                color:white
+            }
+            body{
+                background:black;
+            }
+            .outercontainer{
+                display: none;
+            }
+        </style>
+       </noscript>
+       
+    </head>
+    <body>
+        <div id="webpage">
+            <center>
+            <div class="centercontent">
+                <img src="images/logo.png" id="logo_pic" width="120">
+                <h1>SAfe_DOC</h1>
+                <i class="fa fa-play-circle-o animated infinite swing" style="font-size:50px;margin-top:20px;cursor:pointer;" onclick="open_box()"></i>
+            </center>
+            <div id="form-box">
+                <i class="fa fa-close"style="float:right;padding:5px;background:white;margin-top:20px" onclick="animation_close()"></i>
+                <h1 style="text-align:center;color:white">Login user!</h1>
+               <form id="login-form" onsubmit=" return log_in()">
+                <input type="text" placeholder="&#xf2bd; username" id="login-user">
+                <br>
+                <input type="password" placeholder="&#xf023; password" id="login-pass">
+                <br>
+                <input type="submit" value="login">
+               </form> 
+               <br>
+               <br>
+               <br>
+               <br>
+               <h1 align="center" style="color:white">Signup User !</h1>
+               <form id="sign-form" onsubmit=" return sign_up()">
+                   <input type="text" name="name" required="required" placeholder="&#xf2bd; Your name" id="username">
+                   <br>
+                   <input type="email" name="email" required="required" placeholder="&#xf0e0; Email id" id="email" onchange="chk_emil()" class="animated">
+                   <span id="user-found"></span>
+                   <br>
+                   <input type="password" name="password" required="required" placeholder="&#xf023; Password" id="password">
+                   <br>
+                   <input type="text" name="mobile"id="number" required="required" placeholder="&#xf10b; Mobile no">
+                   <br>
+                   <span id="success"></span>
+                   <input type="submit" value="Sign Up" id="sub">
+               </form>
+            </div>
+            </div>
+        </div>
+        <script src="script/script.js"></script>
+        <script src="script/competiable.js"></script>
+        <script src="script/log-sign.js"></script>
+    </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <form>
+            <input type="search" placeholder="search" id="search-bar">
+            <input type="submit" id="submit">
+            <span class='material-icons' id="search-icon">search</span>
+        </form>
+        <div id="mic-box"><span class="material-icons red-color" id="mic-icon" onclick="speech_to_txt()">mic </span>
+        </div>
+    </header>
+    <div id="side-box">
+        <span class="material-icons blue-color" id="menu_icon">menu</span>
+        <div class="menu1" id="one"><span class="material-icons red-color" id="play-btn1">play_arrow </span></div>
+        <div class="menu2"> <span class="material-icons yellow-color" id="play-btn2">stop_circle</span></div>
+        <div class="menu3"><span class="material-icons yellow-color" id="play-btn3" onclick="lo_ad()">restart_alt </span></div>
+        <div class="menu4"> <span class="material-icons yellow-color" id="play-btn4">volume_up </span></div>
+        <div id="volume">
+        <input type="range" min="0" max="1" step="0.01" id="vol-slider">
+        </div>
+        <div class="menu5"><span class="material-icons yellow-color" id="play-bt">thumb_up </span></div>
+        <div class="menu6"><span class="material-icons yellow-color" id="play-bt">thumb_down </span></div>
+        <div class="menu7"><span class="material-icons yellow-color" id="play-bt">share </span></div>
+        <div class="menu8">
+            <span class="material-icons yellow-color" id="play-bt8">fullscreen </span>
+        </div>
+        <div class="menu9" id="two"><span class="material-icons yellow-color" id="play-btn5">download</span></div>
+        <div class="menu10" id="three"><span class="material-icons yellow-color" id="play-btn8">settings </span></div>
+        <div id="setting">
+           <div id="setting-content">
+            <p id="annotion">Annotion</p>
+           </div>
+           <div id="setting-content">
+            <p id="speed-text">Speed</p>
+           </div>
+           <div id="setting-content">
+            <p id="quality">Quality<p>
+           </div>
+           <div id="speed">
+            <input type="range" min="0" max="10" step="2" id="speed-slider" value="1">
+            </div>
+        </div>
+        <div class="menu11" id="miniplayer"><span class="material-icons yellow-color" id="player">local_activity</span></div>
+        <!-- <div class="menu"></div> -->
+
+        <div id="right-box">
+            <!-- <div id="scroll-test"></div>   -->
+            <div>
+                <ul>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                    <li>
+
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html1 </p>
+
+                    </li>
+                    <li>
+                        <img src="chip.jpg" id="img">
+                        <p>Introduction to basic of html2 </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section>
+            <div id="screen">
+                <h1 id="videoname">Introduction to html</h1>
+                <video height="480" controls="controls" id="vid">
+                    <input type="file" accept="video/*" id="vid-upload">
+                <source  id="sou-rce">
+
+                </video>
+            </div>
+        </section>
+        <div id="progress-bar">
+            <div id="buffer-bar"></div>
+           <div id="progress"> </div>
+        </div>
+     
+            <div  id="mini">
+                <h2 id="mini-player-nm">ch1 intro to html</h2>
+                <span class="material-icons yellow-color" id="close_player" onclick="work()">close </span>
+                <video controls  id="mini-video_player">
+                    <source  id="mini-videosource">
+                </video>
+            </div>
+            <!-- <button onclick="demo()">check</button> -->
+      
+        <script src="script/script.js"></script>
+</body>
+
+<!-- </html>
+<input type="file" accept="video/*"onchange="demo()" id="input">
+<video controls="controls" width="720" id="video"></video>
+<script>
+    function demo()
+    {
+        var filemname=document.getElementById("input").files[0];
+        var url=URL.createObjectURL(filename);
+        var video=document.getElementById("video");
+        video.src=video;
+    }
+</script> -->

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+.centercontent {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centercontent img {
+    box-shadow: 0px, 0px, 5px #ddd;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.centercontent h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+    color: red;
+    padding: 0%;
+    margin: 0%;
+}
+
+#form-box {
+    /* display:none; */
+    height: 100vh;
+    width: 300px;
+    border: 1px solid red;
+    background-color: blue;
+    position:absolute;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+#login-form input[type=text],
+[type=password] {
+    width:100%;
+    padding:13px;
+    margin-bottom:20px;
+    border:none;
+}
+#login-form input[type='text'],[type='password']::placeholder{
+    font-family:fontAwesome;
+    font-size: 18px;
+    color:grey;
+}
+#login-form input[type=submit]{
+    width:80px;
+    float:right;
+    padding:10px;
+    background-color: white;
+    border:1px solid #ccc;
+
+}
+#sign-form input[type=text],input[type=email],input[type=number],input[type=password]
+{
+    width:100%;
+    padding:13px;
+    margin-bottom:20px;
+    border:none;
+}
+#sign-form input[type=text],input[type=email],input[type=password]::placeholder{
+    font-family:fontAwesome;
+    font-size: 18px;
+    color:grey;
+}
+#sign-form input[type=submit]{
+    width:80px;
+    padding:10px;
+    float:right;
+    background:white;
+    border:1px solid #ccc;
+    /* animation-fill-mode: ; */
+}
+input:focus{
+    outline:none;
+}
+@keyframes box{
+    0%{
+        width:0%
+    }
+    100%{
+        width:300px;
+    }
+
+}
+span{
+    color:white;
+    font-family:sans-serif;
+    font-size: medium;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style/contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="contact-page">
+        <header>
+            <img src="images/triangle.png" alt="triangle" width="130" id="pic">
+            <div id="pic-box"></div>
+            <h1 id="private">private contact</h1>
+            <div id="contact-box">
+                <form id="form-box" >
+                    <input type="text" placeholder="fullname" id="name">
+                    <br>
+                    <input type="number" placeholder="primary contact" name="primarycontact" required="required" id="primarycontact">
+                    <br>
+                    <input type="number" placeholder="secondary contact" name="secondarycontact" required="required" id="secondarycontact">
+                    <br>
+                    <span id="success"></span>
+                    <input type="button" value="add" id="submit" onclick="chek_data(this)">
+                </form>
+            </div>
+            <div id="contact-list">
+               <h1 id="cont-list">CONTACT LIST</h1>
+               <form>
+               <input type="search" placeholder="search contact here" id="sea-rch" oninput="search_contact(this)">
+            </form>
+            <div id="contactname">
+            
+            </div>
+            
+            </div>
+           <div id="footer">
+            <span style="float:left;cursor: pointer;" onclick="logout()"><i class="fa fa-sign-out"></i>logout</span>
+            <span style="float:right;cursor: pointer;" onclick="restore_contact()"><i class="fa fa-refresh"></i>restore contact</span>
+           </div>
+           <div id="restore-contact">
+            <h1 id="restore-notice" align="center"></h1>
+            <table width="80%" align="center" id="restore-table">
+                <tr>
+                    <td>contact name</td>
+                    <td>primary cintact</td>
+                    <td>secondary contact</td>
+                    <td>restore contact</td>
+                </tr>
+            </table>
+            <i class="fa fa-times-circle" style="position:absolute;right:20px;top:40px;font-size: 25px;color:red" onclick="this.parentElement.style.height='0'"></i>
+           </div>
+        </header>
+    </div>
+ <script src="script/script.js"></script>
+</body>
+
+</html>

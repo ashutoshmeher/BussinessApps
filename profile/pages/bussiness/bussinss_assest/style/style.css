@@ -1,0 +1,255 @@
+@charset "utf-8";
+header{
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+*{
+    box-sizing: border-box;
+}
+#pic-box{
+    width:100px;
+    height:100px;
+    border:2px solid white;
+    box-shadow:0px 0px 5px grey;
+    position:fixed;
+    border-radius:50%;
+    left:10px;
+    top:10px;
+}
+h1{
+    padding:0px;
+    margin:0px;
+}
+#main-tag{
+    margin-top:20px;
+    text-align: center;
+    color:blue;
+    font-family:sans-serif;
+}
+p{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+}
+#circle
+{    float:left;
+    width:200px;
+    height:200px;
+    border:15px groove blueviolet;
+    border-radius:50%;
+    /* margin-left:350px; */
+    /* margin-top:180px; */
+}
+#comp_name
+{
+    float:left;
+    margin-left:150px;
+    margin-top:80px;
+    font-size:40px;
+    color:rebeccapurple;
+}
+#container
+{
+    float:left;
+    margin-top:100px;
+    margin-left:110px;
+    /* height:370px; */
+    height:450px;
+    width:300px;
+    padding:40px 30px;
+   border-top:15px ridge blueviolet;
+   border-bottom:15px ridge blueviolet;
+   box-shadow: 0px 0px 5px grey;
+   overflow: hidden;
+}
+#box,#box2,#box3{  
+    background-color:white;
+    border:1px solid #ccc;
+    padding:17px;
+    width:100%;
+    margin-bottom:30px;
+    font-weight: bold;
+    font-family:"Ubuntu";
+    font-size:18px;
+    /* padding:20px 30px; */
+    box-shadow:0px 0px 5px #ddd;
+}
+#icon
+{
+    float:left;
+   
+    font-size:25px;
+}
+#unit,#sales,#shut
+{
+    /* float:left; */
+   padding:0px;
+   margin:0px;
+   text-align:center;
+   padding-top:3px; 
+   font-family: sans-serif;
+   cursor: pointer;
+}
+#box:hover
+{ 
+   background: black;
+   cursor: pointer;
+   color:white;
+}
+#box2:hover
+{ 
+   background: black;
+   cursor: pointer;
+   color:white;
+}
+#box4:hover
+{ 
+   background: black;
+   cursor: pointer;
+   color:white;
+}
+#box3:hover
+{ 
+   background: black;
+   cursor: pointer;
+   color:white;
+}
+#sec_box input[type="text"]{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:3px;
+
+}
+#sec_box input[type="submit"]{
+        width:100%;
+		padding:10px;
+		margin-bottom:12px;
+		border:none;
+		background-color:red;;
+		color:white;
+		font-family:"Ubuntu",sans-serif;
+		font-size:18px;
+}
+#sec_box{
+    display: none;
+}
+#circle-container{
+    float:left;
+    margin-top:180px;
+    width:500px;
+    height: 400px;
+    margin-left: 300px;
+/* border:1px solid red */
+}
+#table-box{
+    width:60%;
+    height:95vh;
+    border:1px solid red;
+    background:white;
+    margin-left:10%;
+    margin:0 auto;
+    position:absolute;
+    top:20px;
+    left:300px;
+    padding: 20px;
+    overflow-y: scroll;
+    display:none;
+}
+/* #close_icon{
+    float:right;
+} */
+#table-box button{
+    width:120px;
+    height:40px;
+    border:1px solid #ccc;
+    float:right;
+    background: white;
+    border-radius:5px;
+    font-size: 15px;
+}
+
+#voucher-details,#voucher-logo{
+    border:1px solid black;
+    padding:15px;
+    border-radius:4px;
+}
+#voucher-details{
+    width:750px;
+}
+#voucher-logo{
+width:150px;
+}
+#table-box::-webkit-scrollbar
+{  width:10px;
+ background:#ccc;
+}
+body{
+    background:black;
+}
+
+#table-box::-webkit-scrollbar-thumb
+	{
+	background-color: black;
+	}
+#costumer-product tr:first-child{
+   background-color: black;
+   color:white;
+}
+#costumer-product input{
+    width:100%;
+    padding:10px;
+    border: 1px solid #d4d4d4;
+    margin-top:2px;
+    border-radius:4px;
+}
+#delete-row{
+    margin-left: 6px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+/* #tax-box{
+    width:100%;
+    height:0px;
+
+    border:1px solid red;
+    background: black;
+     display: none; 
+} */
+#box4 input[type='text']{
+  width:100%;
+  height:40px;
+  margin-top:15px;
+  padding:10px;
+  outline:none;
+}
+#box4 input[type='submit']{
+    width:100%;
+    height:40px;
+    margin-top:15px;
+    border:none;
+    background: red;
+    margin-bottom: 20px;
+    color:white;
+}
+#tax-name{
+    float:left;
+    font-size:13px;
+
+}
+#box4{
+background-color:white;
+border:1px solid #ccc;
+height:55px;
+padding:17px;
+width:100%;
+margin-bottom:30px;
+font-weight: bold;
+font-family:"Ubuntu";
+font-size:18px;
+/* padding:20px 30px; */
+box-shadow:0px 0px 5px #ddd;
+overflow: hidden;
+}

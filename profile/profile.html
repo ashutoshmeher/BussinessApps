@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="mainpage">
+    <div id="container">
+        <div id="headbar">
+            <h1 id="print"></h1>
+        </div>
+        <center>
+        <div id="upload">
+            <i class="fa fa-upload" id="i">upload Image</i>
+    
+           <input type="file" accept="image/*" id="upload_pic" onchange="upload_pic()"> 
+          <p id="para"></p>
+        </div>
+        <button id="btn">NEXT</button>
+    </center>
+    </div>
+</div>
+<div id="app-content">
+<header>
+    <div id="box">
+       <h1 id="name"></h1>
+    </div>
+    <center><div id="profile-pic"></div></center>
+    <ul>
+        <li><a href="pages/bussiness/bussiness.html"><i class="fa fa-briefcase" style="font-size:30px;color:black"></i><br>bussiness</a></li>
+        <li><a href="#"><i class="fa fa-pencil" style="font-size:30px;color:black"></i><br>about me</a></li>
+        <li><a href="pages/contact/contact.html"><i class="fa fa-phone" style="font-size:30px;color:black"></i><br>contact</a></li>
+        <li><a href="pages/playlist/player.html"><i class="fa fa-play" style="font-size:30px;color:black"></i><br>playlist</a></li>
+        <li onclick="logout()"><a href="#"><i class="fa fa-sign-out" style="font-size:30px;color:black"></i><br>sign out</a></li>
+    </ul>
+    <h1 id="wait"></h1>
+</header>
+<footer>
+    <div id="last-bar"></div>
+</footer>
+</div>
+    <script src="script/script.js"></script>
+</body>
+</html>

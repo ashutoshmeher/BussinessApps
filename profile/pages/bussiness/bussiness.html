@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bussiness</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="triangle.png" alt="triangle" width="130" id="pic">
+        <div id="pic-box"></div>
+    </header>
+    <h1 id="main-tag"> Bussiness Mangement System</h1>
+    <p>Manage All Your Bussiness Detail like legder,voucher</p>
+    <div id="company-option">
+        <div id="create-company">
+            <i class="fa fa-home" id="company-icon"></i> 
+            <button id="create">create company</button>
+        <div id="form-box">
+            <div id="form">
+               <form onsubmit="sub()">
+                <input type="text" name="companyname" id="companyname" placeholder="companyname" required="required">
+                <br>
+                <input type="text" name="emailname" id="mailingname" placeholder="mailling-name" required="required">
+                <br>
+                <input type="text" name="address" id="address" placeholder="address" required="required">
+                <br>
+                <input type="number" name="phone" id="phone" placeholder="mobile-number" required="required">
+                <br>
+                <input type="text" name="website" id="website" placeholder="website">
+                <br>
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="tel" name="faxnumber" id="fax-number" placeholder="fax-number">
+                <br>
+                Finincial Year
+                <input type="date" name="finincial year" id="finincial-year">
+                <br>
+                Stock type
+                <input type="text" name="stock type" id="stock-type"
+                placeholder="account only">
+                <br>
+                <input type="submit" value="create new" id="submit">
+            </form> 
+            </div>
+
+        </div>
+        </div>
+        <p id="warnining"></p>
+        <div id="create-company">
+            <i class="fa fa-trash" id="company-icon"></i> 
+            <button id="delete" >Delete company</button>
+            
+           
+        </div>
+        <p id="delete-notice" style="color:red;font-size:20px;display:none;font-weight:bold;font-family:sans-sarif;"> are you sure?<br>
+            <button id="ok">Ok</button><button id="cancel">cancel</button></p>
+        <div id="create-company">
+            
+                <i class="fa fa-sign-out" id="company-icon"></i>
+            <button id="logout">logout</button>
+        </div>
+        <h1 id="log-out-notice">please wait...</h1>
+    </div>
+  <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 35.33%
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+#pic-box {
+    width: 100px;
+    height: 100px;
+    /* float:left; */
+    border: 2px solid white;
+    border-radius: 50%;
+    /* background:red; */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#pic {
+    position: fixed;
+}
+
+#private {
+    padding: 0px;
+    margin: 0px;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    /* margin-top:-100px; */
+    margin-bottom: 30px;
+}
+
+input[type='text'],
+[type='number'] {
+    height: 42px;
+    width: 300px;
+    margin: 10px;
+    border: none;
+    border-left: 5px solid blue;
+    box-shadow: 0px 0px 3px grey;
+    padding: 10px;
+    margin-left: 40px;
+    /* float:right; */
+}
+
+#submit {
+    height: 40px;
+    width: 80px;
+    color: black;
+    background: yellowgreen;
+    border: none;
+    /* padding:20px; */
+    text-align: center;
+    font-weight: bold;
+    margin-left: 262px;
+    /* float:right; */
+    cursor: pointer;
+    outline: none;
+}
+
+#contact-box {
+    height: 250px;
+    width: 350px;
+    border: none;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    margin: 0 auto;
+}
+
+#contact-list {
+    width: 350px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 77%;
+}
+
+#contact-list {
+    overflow-y: scroll;
+}
+
+#contact-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+#contact-list::-webkit-scrollbar-track {
+    background-color: grey;
+}
+
+#contact-list::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 20px;
+}
+
+#contact-list::-webkit-scrollbar-button {
+    background-color: yellow;
+}
+
+#contact-list::-webkit-scrollbar-button:hover {
+    background-color: blue;
+}
+
+#cont-list {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+}
+
+#sea-rch {
+    /* height:50px; */
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 20px blue;
+    outline: none;
+    border: 2px solid blue;
+}
+
+#success {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: red;
+    position: fixed;
+    display: none;
+
+
+    /* margin-top:100px; */
+}
+
+#contact-name {
+    color: white;
+}
+
+li {
+    /* float:left; */
+    color: white;
+    margin-bottom: 15px;
+    /* position: relative; */
+}
+
+legend {
+    color: white;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: none;
+    border-top: 2px solid yellow;
+}
+
+#delete-icon {
+    /* float: left; */
+    color: yellow;
+    font-size: 15px;
+    /* margin-top: 0px; */
+    /* margin-left:200px; */
+    /* position:fixed; */
+    /* margin-left: 200px; */
+    float:right;
+    /* position: fixed; */
+    cursor: pointer;
+}
+#edit-icon{
+    color:yellow;
+    font-size:30px;
+    margin-left: 150px;  
+    position:relative;
+    top:40px;
+}
+#save-icon{ 
+    /* margin-left:150px; */
+    margin-left:20px;
+    font-size:30px;
+    color:yellow;
+    position:relative;
+    top:40px; 
+}
+#footer{
+    width:340px;
+    height:25px;
+    color:black;
+    background-color: white;
+    border:1px solid red;
+    font-weight: bold;
+    position:fixed;
+    bottom:0px;
+    right:10px;
+
+}
+#restore-contact
+{
+    width:77%;
+    height:0;
+    background:white;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+#restore-table{
+    text-align: center;
+    /* border:2px solid red; */
+}
+#vid{
+position:absolute;
+top:0;
+}
