@@ -29,7 +29,7 @@ function open_form() {
     var form_box = document.getElementById("form-box");
     button.onclick = function () {
         if (form_box.offsetHeight == 0) {
-            alert("close");
+            // alert("close");
             this.innerHTML = "close";
             form_box.style.display = "block";
             form_box.style.height = "180px";
@@ -231,7 +231,7 @@ function log_out()
 check_company();
 function check_company()
 {
-    alert(localStorage.getItem("company"));
+    // alert(localStorage.getItem("company"));
     if(localStorage.getItem("company"))
     {   
       document.getElementById("form-box").remove();
