@@ -223,7 +223,7 @@ document.getElementById("buffer-bar").style.width=perc+"%";
 
 if(video.networkState==3)
 {
-    video.setAttribute("poster","chip.jpg");
+    video.setAttribute("poster","1.mp4");
     video.onclick=function()
     {
         var upload_btn=document.getElementById("vid-upload");
