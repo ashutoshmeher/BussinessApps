@@ -85,7 +85,7 @@ else{
         //this is anotherdata we have store in the sesstopn for retriving the name
         return false;
         //we could have use oher but this is the coorect one sinse it will replace that url and it cant go back since it is already log in 
-        //we cant also opoen in ither tab because it will delete sessionstorage
+        //we cant also opoen in ither tab because it will delete sessionstorage.
     }
     else{
         alert("password is wrong");

@@ -81,7 +81,7 @@ function logout()
 {
     sessionStorage.clear();
     var plese=document.getElementById("wait");
-    plese.innerHTML="please wait...";
+    plese.innerHTML="please wait.....";
     setTimeout(function(){
       window.location="../index.html";
     },2000);
